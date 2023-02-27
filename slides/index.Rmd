@@ -1,0 +1,35 @@
+---
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+author: "Yihui Xie"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, hygge, rutgers, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+# level 1 
+
+##subsection 
+
+hello world
+
+```{r}
+2 + 2
+```
+
+---
+
+#slide 3
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+```{r, echo=FALSE, message=FALSE, out.width= "100%", fig.height=4, fig.retina=2}
+```
